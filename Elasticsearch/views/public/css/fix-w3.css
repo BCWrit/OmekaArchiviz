@@ -1,0 +1,14 @@
+.w3Page {
+  box-sizing: initial;
+  font-size: 0.95em;
+}
+
+DIV.gt-page-body {
+  max-width: 100% !important;
+  /* 11/11/19 - adjusted height from 700 to 850 */
+  height: 850px;
+}
+
+/* #content {
+  padding: 0 0 !important;
+} */

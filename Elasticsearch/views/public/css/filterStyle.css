@@ -1,0 +1,51 @@
+.arrow {
+  background-color: transparent;
+  top: 1em;
+  left: -2.0em;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.category-filter-container {
+  /* 11/11/19 - changed from transparent to snow */
+  background-color: snow;
+  border: solid 3px;
+  border-radius: 20px;
+  margin: 3px 0px 3px 0px;
+}
+
+.sort-buttons {
+  font-size: 3px;
+  padding-left: 5px;
+  padding-top: 0px;
+}
+
+.filter-button {
+  background-color: transparent !important;
+  color: black !important;
+  width: 100%;
+  height: auto;
+  outline-width: 0;
+  text-transform: capitalize;
+}
+
+.filter-button:hover {
+  background-color: transparent;
+  outline-width: 0;
+}
+
+.tag-filter-list {
+  /* 11/11/19 - created background color of snow */
+  background-color: snow;
+  list-style: none;
+  overflow-y: scroll;
+  /* 11/11/19 - adjusted from 100 to 80% */
+  max-width: 80%;
+  /* 11/11/19 - adjusted from 200 to 70px */
+  max-height: 150px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-top: 2px solid;
+}

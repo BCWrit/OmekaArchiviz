@@ -1,0 +1,55 @@
+.links line {
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke-width: 3px;
+  stroke-opacity: 0.6;
+}
+
+DIV.gt-page-body {
+  max-width: 100% !important;
+}
+
+/* #content {
+  padding: 0 0 !important;
+} */
+
+.tag-button {
+  text-transform: capitalize;
+  color: black !important;
+  background-color: white !important;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 3px;
+  height: auto;
+}
+
+g.nodes g:hover foreignObject.hover-preview {
+  display: flex;
+}
+
+g.nodes g foreignObject.hover-preview {
+  height: 300px;
+  width: 300px;
+  display: none;
+  outline: 2px solid black;
+  opacity: 1;
+}
+
+g.nodes g foreignObject.hover-preview div {
+  /* height: 200px;
+  width: 200px; */
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+g.nodes g foreignObject.hover-preview div img{
+  height: 100px;
+  width: auto; 
+}
+
+g.nodes g foreignObject.hover-preview div > * {
+  flex: 1;
+}
