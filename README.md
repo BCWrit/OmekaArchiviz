@@ -1,5 +1,7 @@
 # Archiviz
 
+_This plugin is no longer actively maintained. It was an active project connected to my work at Georgia Tech, and is no longer part of my workscope at Stanford. I'm happy to look at issues if you open them, but can't devote a ton of time to them in most cases. I last fixed some bugs and had the interface running in Dec '23. The biggest obstacle for the plugin moving forward is php updates, which tend to break data schema. The plugin was always pretty complex in set-up, and was always intended to be installed with your local IT professional, who should hopefully be able to work through small bugs as they arise. Good luck and have fun!
+
 Archiviz is a stack of four plug-ins for Omeka that allow users to: 
 
 1. digitize text documents (via the OCR plugin)
@@ -111,9 +113,17 @@ to unzip the plugins.
 
 You can
 ```bash
-ls -a
+ls -a ./OmekaArchiviz
 ```
 to verify everything is there.
+
+Because Archiviz is actually a collection of 4 separate plugins, we need to get the plugins within the OmekaArchiviz folder to the plugin directory. To do this, type:
+
+```bash
+mv OmekaArchiviz/* .
+```
+while in the plugins folder, which will move everything to that location.
+
 ## Front-end Set-up
 
 ### Omeka Set-up
