@@ -1,6 +1,6 @@
 # Archiviz
 
-_This plugin is no longer actively maintained. It was an active project connected to my work at Georgia Tech, and is no longer part of my workscope at Stanford. I'm happy to look at issues if you open them, but can't devote a ton of time to them in most cases. I last fixed some bugs and had the interface running in Dec '23. The biggest obstacle for the plugin moving forward is php updates, which tend to break data schema. The plugin was always pretty complex in set-up, and was always intended to be installed with your local IT professional, who should hopefully be able to work through small bugs as they arise. Good luck and have fun!
+_This plugin is no longer actively maintained. It was an active project connected to my work at Georgia Tech, and is no longer part of my workscope at Stanford. I'm happy to look at issues if you open them, but can't devote a ton of time to them in most cases. I last fixed some bugs and had the interface running in Dec '23. The biggest obstacle for the plugin moving forward is php updates, which tend to break data schema. The plugin was always pretty complex in set-up, and was always intended to be installed with your local IT professional, who should hopefully be able to work through small bugs as they arise. Good luck and have fun!_
 
 Archiviz is a stack of four plug-ins for Omeka that allow users to: 
 
